@@ -122,7 +122,6 @@ h3.festa {text-align: center;
     border-radius: 4px;
     padding: 14px 25px;
     display: block;
-    margin-left: 5%;
     margin-right: auto;
     margin-bottom: 2em;
     width: 30%;
@@ -363,8 +362,6 @@ h3.festa {text-align: center;
 
 .santocielo {margin:auto !important;
             background-color: #ff9999 !important}
-.voi_p {margin-right: 35%;
-        margin-left: 5%;}
 
 .featurette-divider {
   margin: 2rem 0 2rem;
@@ -393,3 +390,9 @@ h3.festa {text-align: center;
             color: #ffffcc;
             text-decoration:underline;
             transition: smooth}
+
+.bold {font-weight: bold}
+.titoli_doc {text-align: center;
+            text-transform: uppercase;}
+.titoli_minori_doc {text-align: center;
+                    }
