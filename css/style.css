@@ -101,21 +101,16 @@ h3.festa {text-align: center;
     width: 45%;
     text-align: center;
 } */
-#associaz2 {background-color: white;
-    color: black;
-    border: 2px solid black;
+
+.bottoni_index {background-color: white !important;
+    color: black !important;
+    border: 2px solid black !important;
     border-radius: 4px;
-    padding: 14px 25px;
-    display: block;
-    margin-left: none;
-    margin-right: auto;
-    margin-top: 0px;
-    width: 45%;
+    padding: 14px 14vw !important;
+    margin: auto !important;
     }
-
-
-#associaz2:hover {background-color: #ffffcc;
-            color: #ff9999;
+.bottoni_index:hover {background-color: #ffffcc !important;
+            color: #ff9999 !important;
             text-decoration:underline;
             transition: smooth}
 
