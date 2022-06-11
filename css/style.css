@@ -81,8 +81,7 @@ h3.festa {text-align: center;
     margin-right: auto;
     margin-bottom: 2em;
     width: 30%;
-    text-align: center;
-    font-size: 1.5vw}
+    }
 
 #ev1:hover {background-color: #ffffcc;
             color: #ff9999;
@@ -112,8 +111,7 @@ h3.festa {text-align: center;
     margin-right: auto;
     margin-top: 0px;
     width: 45%;
-    text-align: center;
-    font-size: 1.5vw}
+    }
 
 
 #associaz2:hover {background-color: #ffffcc;
@@ -129,9 +127,8 @@ h3.festa {text-align: center;
     display: block;
     margin-right: auto;
     margin-bottom: 2em;
-    width: 30%;
-    text-align: center;
-    font-size: 1.5vw}
+    width: 45%;
+   }
 #voi_b:hover {background-color: #ffffcc;
             color: #ff9999;
             text-decoration:underline;
