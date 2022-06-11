@@ -65,7 +65,10 @@ h2 {font-size: 2.15em !important}
 
 h3.festa {text-align: center;
             font: bold 2.5em Inter !important}
-    .festa_p {font-size: 1.25em !important}
+    .festa_p {font-size: 1.25em !important;
+                margin: auto;
+                margin-bottom: 2em;
+                text-align: center}
 
 
 #ev1 {background-color: white;
@@ -78,7 +81,8 @@ h3.festa {text-align: center;
     margin-right: auto;
     margin-bottom: 2em;
     width: 30%;
-    text-align: center;}
+    text-align: center;
+    font-size: 1.5vw}
 
 #ev1:hover {background-color: #ffffcc;
             color: #ff9999;
@@ -108,7 +112,8 @@ h3.festa {text-align: center;
     margin-right: auto;
     margin-top: 0px;
     width: 45%;
-    text-align: center;}
+    text-align: center;
+    font-size: 1.5vw}
 
 
 #associaz2:hover {background-color: #ffffcc;
@@ -125,13 +130,21 @@ h3.festa {text-align: center;
     margin-right: auto;
     margin-bottom: 2em;
     width: 30%;
-    text-align: center;}
+    text-align: center;
+    font-size: 1.5vw}
 #voi_b:hover {background-color: #ffffcc;
             color: #ff9999;
             text-decoration:underline;
             transition: smooth}
 
 #ass2 {text-align: center}
+
+.bottoni_associaz {border: 2px #ff9999 solid !important;
+                    border-radius: 8px;
+                    color: black;
+                    background-color: white}
+.bottoni_associaz:hover {background-color: #ff9999;
+                        }
             /*$bg-color: #78ACCD;
             $white: #ffffff;
             $black: #333333;
@@ -372,8 +385,13 @@ h3.festa {text-align: center;
 .t_social {font-size: 1.1em !important;
             margin-top: 0px !important}
 .fbook {margin-right: 1em}
-.doc_centro {text-align: center;
-                margin-top: 1em}
+.doc_centro {text-align: center;                
+                color: black}
+.uffa {margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+        text-align: center !important;}
 
 #invia {background-color: white;
     color: black;
@@ -393,6 +411,10 @@ h3.festa {text-align: center;
 
 .bold {font-weight: bold}
 .titoli_doc {text-align: center;
-            text-transform: uppercase;}
-.titoli_minori_doc {text-align: center;
-                    }
+            text-transform: uppercase;
+            margin-left: auto;
+            margin-right: auto;}
+.titoli_minori_doc {text-align: center;}
+
+.centro {margin-left: 22%;
+        margin-right: 18%;}
