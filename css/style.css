@@ -150,27 +150,22 @@ h3.festa {text-align: center;
                 font-size: 10px;
                 font-family: sans-serif;
                 line-height: 1.6;
-            }
-
-            .card-calendar {
                 background-color: #93ffef ;
                 color: black;
                 font-size: 1.5rem;
-            }
-            .card__body--days .card__body--dates{
-                list-style: none;
-            }
-
-            .card-calendar {
-                background: #ff9999;
-                width: 90%;
-                max-width: 40rem;
+                 background: #ff9999;
+                max-width: 60%;
                 min-height: auto;
                 margin: 5rem auto;
                 margin-top: 2rem;
                 display: grid;
-                grid-template-rows: 8rem auto auto;
-               }
+                grid-template-rows: 8rem auto auto;}
+
+            
+
+            .card__body--days .card__body--dates{
+                list-style: none;
+            }
 
 
                 .card__header {
@@ -179,19 +174,26 @@ h3.festa {text-align: center;
                     align-items: center;
                     text-align: center;}
 
-                .card__body {
-                    padding: 1.5rem 2rem;
+                .card__body {display: grid;
                     border-top: 1px solid #ccc;
                    }
 
-                    .card__body--days {
-                        display: flex;
+                   
+                    .card__body--days {display: grid;
+                        grid-template-columns: repeat(7, 1fr);
                         justify-content: space-between;
                         align-items: center;
                         height: auto;}
 
-                         .weekday {
-                            flex: 1;
+                        @media screen and (max-width: 401px) {
+  .card__body--days {
+    overflow-x: scroll;
+  }
+}
+
+                         .weekday {display: grid;
+                        grid-template-columns: repeat(7, 1fr);                            
+                            
                             font-weight: bold;
                             text-transform: capitalize;
                             text-align: center;
@@ -201,10 +203,11 @@ h3.festa {text-align: center;
 
                     .card__body--dates {
                         display: grid;
-                        grid-gap: : 3px;
                         grid-template-columns: repeat(7, 1fr);
-                        justify-content: center;
-                        text-align: center;}
+                        text-align: center;
+                        overflow-x: auto;
+                        width: 100%;
+                    }
                      .day {
                             width: 3.5rem;
                             height: 3.5rem;
@@ -216,7 +219,8 @@ h3.festa {text-align: center;
                             z-index: 2;
                             border: 1px solid;
                             margin: 0px;
-                            content: 3em;}
+                            content: 3em;
+                            }
 
                       .day:hover {background-color:#ffffcc;
                                   border-radius: 50%}
@@ -410,3 +414,5 @@ h3.festa {text-align: center;
 
 .centro {margin-left: 22%;
         margin-right: 18%;}
+
+
